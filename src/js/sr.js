@@ -72,7 +72,7 @@ export default function() {
   ScrollReveal().reveal('.experience-wrapper__text',
     assignProps(
       {
-        delay: 500,
+        delay: 1000,
         origin: window.innerWidth > 768 ? 'left' : 'bottom'
       }, defaultProps)
   );
@@ -87,7 +87,7 @@ export default function() {
   ScrollReveal().reveal('.course-work-wrapper__text',
     assignProps(
       {
-        delay: 500,
+        delay: 1000,
         origin: window.innerWidth > 768 ? 'left' : 'bottom'
       }, defaultProps)
   );
