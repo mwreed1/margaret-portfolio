@@ -16,6 +16,14 @@
       margin-bottom: 5rem;
     }
 
+    .row {
+      margin-bottom: 8rem;
+
+      @include respond(phone) {
+        margin-bottom: 4rem;
+      }
+    }
+
     &__text {
       text-align: left;
 
