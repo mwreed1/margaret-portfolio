@@ -4,6 +4,11 @@ h1 {
   font-weight: 700;
 }
 
+summary {
+  font-family: 'Montserrat', sans-serif;
+  font-size: $default-font-size;
+}
+
 p,
 a {
   font-family: 'Montserrat', sans-serif;
@@ -40,7 +45,7 @@ a:hover {
 
 .text-color-main {
   @include supportColorForIE11();
-  
+
   // Responsive text purple style
   @include respond(phone) {
     background-image: none;
