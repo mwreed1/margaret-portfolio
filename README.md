@@ -8,4 +8,4 @@ This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md
 
 ## Inspired by
 
-- **Jacobo Martinez** - [https://github.com/cobidev](https://github.com/cobidev)
+- [**Jacobo Martinez**](https://github.com/cobidev)
