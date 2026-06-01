@@ -1,3 +1,6 @@
+@use '../abstracts/variables' as *;
+@use '../abstracts/mixins' as *;
+
 @import url('https://fonts.googleapis.com/css?family=Montserrat:400,700');
 
 h1 {
