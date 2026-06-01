@@ -23,9 +23,6 @@
     transition: all cubic-bezier(0.19, 1, 0.22, 1) 0.3s;
   }
 
-  @include respond(phone) {
-    //font-size: 2rem;
-  }
 }
 
 /* Hero Style */

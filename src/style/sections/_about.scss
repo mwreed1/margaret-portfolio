@@ -17,7 +17,6 @@
   padding-bottom: 15%;
 
   @include respond(tab-land) {
-    height: 100%;
     -webkit-clip-path: none;
     clip-path: none;
   }
@@ -54,9 +53,6 @@
       &-text {
         text-align: left;
 
-        @include respond(tab-port) {
-          text-align: left;
-        }
         @include respond(tab-port-sm) {
           text-align: center;
         }

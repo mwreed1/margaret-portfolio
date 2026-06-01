@@ -1,6 +1,5 @@
-import initTilt from './js/tilt';
+import VanillaTilt from 'vanilla-tilt';
 import initSr from './js/sr';
-import initRb from './js/rb';
 import './style/main.scss';
 
 $('a[href^="#"]').on('click', function(event) {
@@ -9,16 +8,10 @@ $('a[href^="#"]').on('click', function(event) {
     event.preventDefault();
     $('html, body')
       .stop()
-      .animate(
-        {
-          scrollTop: target.offset().top
-        },
-        1000
-      );
+      .animate({ scrollTop: target.offset().top }, 1000);
   }
 });
 
-//initrb here was breaking reactivity
 initSr();
-initTilt();
-initRb();
+
+VanillaTilt.init(document.querySelectorAll('.project-wrapper__image a div'), { max: 3 });
